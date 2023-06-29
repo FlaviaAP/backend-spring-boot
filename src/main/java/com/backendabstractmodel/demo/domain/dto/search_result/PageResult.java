@@ -1,0 +1,20 @@
+package com.backendabstractmodel.demo.domain.dto.search_result;
+
+import com.backendabstractmodel.demo.domain.dto.BaseDTO;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.List;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class PageResult<D extends BaseDTO<?>> {
+
+    private Long total;
+    private List<D> items;
+
+}

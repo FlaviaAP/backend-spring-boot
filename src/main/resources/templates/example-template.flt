@@ -1,0 +1,8 @@
+<html>
+<head></head>
+<body>
+    <p>Olá ${fullName},</p>
+    <p>Seja bem-vindo ao sistema <b>Blablabla</b>.</p>
+    <p>Clique <a href="${url}">aqui</a> para saber mais novidades.</p>
+</body>
+</html>
